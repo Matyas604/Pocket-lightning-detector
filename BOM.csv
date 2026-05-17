@@ -28,7 +28,7 @@ Item,Qty.,Price (USD),Link,Distributor
 "YLED0805B",1,0.84,"https://www.lcsc.com/product-detail/C19273154.html","LCSC"
 "YLED0805R",1,0.81,"https://www.lcsc.com/product-detail/C19171391.html","LCSC"
 "LCSC Shipping",1,10.42,"https://www.lcsc.com/","LCSC"
-"""103040 3.7v 1200mAh Li-ion Battery"",1,5.91","https://www.aliexpress.com/item/1005007995684160.html","AliExpress"
+"103040 3.7v 1200mAh Li-ion Battery",1,5.91,"https://www.aliexpress.com/item/1005007995684160.html","AliExpress"
 "Passive Buzzer",1,2.26,"https://www.aliexpress.com/item/1005007144511679.html","AliExpress"
 "Button Switches 8x8",2,1.97,"https://www.aliexpress.com/item/32874871399.html","AliExpress"
 "M3 4mm",2,2.55,"https://www.aliexpress.com/item/4000981220901.html","AliExpress"
