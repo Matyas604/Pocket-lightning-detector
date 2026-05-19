@@ -18,6 +18,36 @@ I really enjoyd this project because I tried out a lot of different thigs: study
 - Various battery protections, such as **overcharge**, **undercharge**, **over-discharge** and **overvoltage**
 - It uses deep sleep mode to get the longest possible battery life
 
-  ## CAD model
-  Everything is stored in a case consisting of two parts: a base and a top cover. The top cover is secured with four M3 screws and heat inserts, along with the PCB, which is secured with two screws. The buttons are labeled
-  with icons for clear identification of their functions. The dimensions are 106 mm in length, 60 mm in width, and 35 mm in height.
+## CAD model
+Everything is stored in a case consisting of two parts: a base and a top cover. The top cover is secured with four M3 screws and heat inserts, along with the PCB, which is secured with two screws. The buttons are labeled
+with icons for clear identification of their functions. The dimensions are 106 mm in length, 60 mm in width, and 35 mm in height.
+
+<p align="center">
+  <img src="Assets/CAD.png" alt="CAD model" width="700">
+</p>
+<p align="center">
+  <strong>Made in Fusion360</strong>
+</p>
+
+## PCB
+It includes two switches: one to turn on and of the device and other to activate Bluetooth.
+
+<p align="center">
+  Schematic
+</p>
+<p align="center">
+  <img src="Assets/Schematic.png" alt="PCB schematic" width="900">
+</p>
+<p align="center">
+  PCB
+</p>
+<p align="center">
+  <img src="Assets/PCB.png" alt="PCB" width="1000">
+</p>
+<p align="center">
+  <strong>Made in KiCad</strong>
+</p>
+⚠️ The area around the lightning sensor antenna must be kept sufficiently far away from metal parts, as there could interfere with the antenna. For this reason, there si no GND copper area around it, and no screws are located nerby.
+
+## Firmware
+
