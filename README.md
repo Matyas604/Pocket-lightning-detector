@@ -18,4 +18,6 @@ I really enjoyd this project because I tried out a lot of different thigs: study
 - Various battery protections, such as **overcharge**, **undercharge**, **over-discharge** and **overvoltage**
 - It uses deep sleep mode to get the longest possible battery life
 
-  
+  ## CAD model
+  Everything is stored in a case consisting of two parts: a base and a top cover. The top cover is secured with four M3 screws and heat inserts, along with the PCB, which is secured with two screws. The buttons are labeled
+  with icons for clear identification of their functions. The dimensions are 106 mm in length, 60 mm in width, and 35 mm in height.
