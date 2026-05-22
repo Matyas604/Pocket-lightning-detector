@@ -10551,7 +10551,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "NC"
 			(at 35.56 39.37 90)
 			(effects
 				(font
@@ -10776,7 +10776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10pF"
 			(at 46.482 58.42 0)
 			(effects
 				(font
@@ -10845,7 +10845,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.768kHz, 7pF"
 			(at 35.56 48.26 0)
 			(effects
 				(font
@@ -12420,7 +12420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4uF"
+		(property "Value" "100nF"
 			(at 151.13 97.7899 0)
 			(effects
 				(font
@@ -14954,7 +14954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 24.13 165.0999 0)
 			(effects
 				(font
@@ -17043,7 +17043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 57.15 165.0999 0)
 			(effects
 				(font
@@ -17180,7 +17180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4uF"
+		(property "Value" "4.7uF"
 			(at 165.1 97.7899 0)
 			(effects
 				(font
@@ -18174,7 +18174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10pF"
 			(at 30.48 58.4199 0)
 			(effects
 				(font

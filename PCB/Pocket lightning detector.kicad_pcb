@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "C:/Users/já/Downloads/Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -6631,6 +6631,17 @@
 			(uuid "9b1e7468-65b8-4203-981a-6a909c6cf6ff")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/já/Documents/KiCad/9.0/3dmodels/TS-1088-AR02016.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "footprints:MA5532-AE"
 		(layer "F.Cu")
@@ -9013,6 +9024,17 @@
 			(uuid "7afd960a-2a7c-4c23-9345-504dc0a5eb8e")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/já/Documents/KiCad/9.0/3dmodels/TS-1088-AR02016.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965"
 		(layer "F.Cu")
@@ -10146,7 +10168,7 @@
 			(uuid "2691f9e1-48f6-4d73-abc5-d95811888312")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7010ASV.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401610E4-2A.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
