@@ -23,7 +23,7 @@ Everything is stored in a case consisting of two parts: a base and a top cover. 
 with icons for clear identification of their functions. The dimensions are 106 mm in length, 60 mm in width, and 35 mm in height.
 
 <p align="center">
-  <img src="Assets/CAD.png" alt="CAD model" width="700">
+  <img src="Assets/CAD.png" alt="CAD model" width="500">
 </p>
 <p align="center">
   <strong>Made in Fusion360</strong>
