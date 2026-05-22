@@ -49,6 +49,14 @@ It includes two switches: one to turn on and of the device and other to activate
 </p>
 ⚠️ The area around the lightning sensor antenna must be kept sufficiently far away from metal parts, as there could interfere with the antenna. For this reason, there si no GND copper area around it, and no screws are located nerby.
 
+## Poster
+<p align="center">
+  <img src="Assets/Poster.png" alt="PCB" width="500">
+</p>
+<p align="center">
+  <strong>Made in Figma</strong>
+</p>
+
 ## Firmware
 It uses standard **C++** code. One button turns the device on, and the other activates **Bluetooth** to display lightnings data and synchronize the time. The time must be synchronized every time the device is turned on. Data cen be currently displayed via a serial monitor application. Once the device is connected, it automatically sends lightning data every 3 seconds. Time is synchronized by sending a command, and the board then retrieves the current time. Lightning strikes and the time are stored in **RTC memory**, so they are erased when the device is turned off. The device runs continuously in deep sleep mode and wakes up only when a lightning strike occurs to save data about the strike and the time it happened, then goes back into deep sleep. **RTC memory** is the only component that remains active even when the device is in deep sleep mode. The **RTC memory** stores a maximum of the last **50 lightning strikes** to prevent it from becoming overloaded. My goal was to maximize battery life, so I chose **Bluetooth** over **Wi-Fi** because **Bluetooth** is much more power-efficient, and I use deep sleep mode as well (Once the device is finished, I’ll carefully measure its battery life).  You can found further details in the comments within the code. After i finished the device, I’ll probably create a nice app where the lightnings will be saved and can be viewed back in time. 
 
